@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 23, 23)
+}
+.left {
+    padding-left: 80px;
+}
+.right {
+    padding-right: 30px;
+}
+ul {
+    word-spacing: 70px;
+    font-size: x-large;
+}
+li, a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+li:hover {
+    background-color: purple;
+    height: auto;
+}
+.top {
+    background-color: rgb(29, 24, 24);
+    text-align: center;
+}
+.ab {
+    font-size: 100px;
+    color: white;
+}
+.para {
+    color: white;
+    font-size: x-large;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 10px;
+}
+.info {
+    height: 390px;
+    background-color:  rgb(27, 23, 23);
+    color: white;
+    padding-top: 20px;
+    font-size: x-large;
+    padding-left: 40px;
+}
+.end {
+    display: flex;
+    padding-left: 60px;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.lefty {
+    background-color: bisque;
+    width: 30%;
+}
+.lefty1 {
+    font-size: 20px;
+}
+.lefty3 {
+    background-color: blue;
+    width: 300px;
+    color: white;
+}
+.lefty4 {
+    background-color: cadetblue;
+    width: 300px;
+    color: beige;
+}
+.Footer {
+    background-color: rgb(27, 23, 23);
+    height: 100px;
+}
+.Social {
+    padding-top: 20px;
+    text-align: center;
+    word-spacing: 50px;
+    font-size: x-large;
+}
+.fb:hover {
+    color: blue;
+    background-color: black;
+}
+.copyright {
+    word-spacing: 3px;
+    color: white;
+    text-align: center;
+}
