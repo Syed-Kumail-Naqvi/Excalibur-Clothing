@@ -1,0 +1,253 @@
+body {
+    background-color: black;
+}
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(27, 23, 23);
+}
+.left {
+    padding-left: 80px;
+}
+.right {
+    padding-right: 120px;
+}
+ul {
+    word-spacing: 70px;
+    font-size: x-large;
+}
+li, a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+li:hover {
+    background-color: purple;
+    height: auto;
+}
+.heading {
+    text-align: center;
+}
+.products {
+    color: beige;
+}
+.items {
+    margin-left: 70px;
+}
+.row {
+    display: flex;
+    gap: 110px;
+    margin-bottom: 20px;
+}
+.item1 {
+    text-align: center;
+    background-color:  rgb(27, 23, 23);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.item1:hover {
+    background-color: darkred;
+}
+.text1 {
+    color: white;
+}
+.item2 {
+    text-align: center;
+    background-color:  rgb(27, 23, 23);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.item2:hover {
+    background-color: darkred;
+}
+.text2 {
+    color: white;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    margin-bottom: 20px;
+}
+.item3 {
+    text-align: center;
+    background-color:  rgb(27, 23, 23);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.item3:hover {
+    background-color: darkred;
+}
+.text3 {
+    color: white;
+}
+.item4 {
+    text-align: center;
+    background-color:  rgb(27, 23, 23);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.item4:hover {
+    background-color: darkred;
+}
+.text4 {
+    color: white;
+}
+.item5 {
+    text-align: center;
+    background-color:  rgb(27, 23, 23);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.item5:hover {
+    background-color: darkred;
+}
+.last {
+    height: 400px;
+}
+.text5 {
+    color: white;
+}
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    margin-bottom: 20px;
+}
+.item6 {
+    text-align: center;
+    background-color:  rgb(27, 23, 23);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.item6:hover {
+    background-color: darkred;
+}
+.text6 {
+    color: white;
+}
+button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+.Footer {
+    width: 100%;
+    background-color: rgb(27, 23, 23);
+    height: 100px;
+}
+.Social {
+    padding-top: 20px;
+    text-align: center;
+    word-spacing: 50px;
+    font-size: x-large;
+}
+.fb:hover {
+    color: blue;
+    background-color: black;
+}
+.copyright {
+    word-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+@media (max-width: 320px) {
+    nav {
+        width: 350px;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin: auto;        
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        padding-right: 0%;
+        justify-content: space-evenly;
+    }
+    ul {
+        width: 350px;
+        padding: 0%;
+        font-size: small;
+        word-spacing: 30px;
+    }    
+    .logo {
+    display: none;
+    }
+    .items {
+        width: 350px;
+        margin: auto;
+    }
+    .row{
+        justify-content: center;
+        width: 350px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .row2{
+        width: 350px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .row3 {
+        width: 350px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .item1 {
+        padding: 0%;
+        margin: 0%;
+        width: 320px;
+    }
+    .item2 {
+        padding: 0%;
+        margin: 0%;
+        width: 320px;
+    }
+    .item3 {
+        padding: 0%;
+        margin: 0%;
+        width: 320px;
+    }
+    .item4 {
+        padding: 0%;
+        margin: 0%;
+        width: 320px;
+    }
+    .item5 {
+        padding: 0%;
+        margin: 0%;
+        width: 320px;
+    }
+    .item6 {
+        padding: 0%;
+        margin: 0%;
+        width: 320px;
+    }
+    .Assests {
+        width: 250px;
+    }
+    .last {
+        width: 250px;
+    }
+    .Footer {
+        width: 320px;
+    }
+    .Social {
+        font-size: medium;
+    }
+    .copyright {
+        font-size: small;
+    }
+}

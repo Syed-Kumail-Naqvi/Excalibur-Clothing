@@ -11,7 +11,7 @@ nav {
     padding-left: 80px;
 }
 .right {
-    padding-right: 30px;
+    padding-right: 120px;
 }
 ul {
     word-spacing: 70px;
@@ -40,10 +40,13 @@ li:hover {
     font-size: x-large;
 }
 .middle {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .img {
+    margin: auto;
     padding-top: 25px;
     padding-left: 80px;
     padding-right: 10px;
@@ -58,8 +61,9 @@ li:hover {
 }
 .end {
     display: flex;
+    flex-wrap: wrap;
     padding-left: 60px;
-    gap: 30px;
+    gap: 90px;
     padding-bottom: 20px;
 }
 .lefty {
@@ -80,6 +84,7 @@ li:hover {
     color: beige;
 }
 .Footer {
+    width: 100%;
     background-color: rgb(27, 23, 23);
     height: 100px;
 }
@@ -97,4 +102,71 @@ li:hover {
     word-spacing: 3px;
     color: white;
     text-align: center;
+}
+@media (max-width: 320px) {
+    nav {
+        width: 350px;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin: auto;        
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        padding-right: 0%;
+        justify-content: space-evenly;
+    }
+    ul {
+        font-size: small;
+        word-spacing: 20px;
+    }    
+    .logo {
+    display: none;
+    }
+    .About {
+        width: 350px;
+    }
+    .middle {
+        justify-content: center;
+    }
+    .profile {
+        width: 440px;
+        padding: 0%;
+        margin: auto;
+    }
+    .info {
+        width: 320px;
+        height: 500px;
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
+    }
+    .end {
+        margin-top: 20px;
+        padding: 0%;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .lefty {
+        width: 320px;
+        padding: 0%;
+        margin: auto;
+    }
+    .lefty3 {
+        width: 320px;
+        padding: 0%;
+        margin: auto;
+    }
+    .lefty4 {
+        width: 320px;
+        padding: 0%;
+        margin: auto;
+    }
+    .Footer {
+        width: 350px;
+    }
+    .copyright {
+        font-size: small;
+    }
 }

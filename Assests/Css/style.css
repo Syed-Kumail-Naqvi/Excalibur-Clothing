@@ -4,6 +4,7 @@ body {
 nav {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: rgb(27, 23, 23)
 }
@@ -25,7 +26,11 @@ li:hover {
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+.lefts {
+    padding-left: 120px;
 }
 .left {
     padding-left: 120px;
@@ -49,6 +54,7 @@ li:hover {
     width: 250px;
 }
 .Footer {
+    width: 100%;
     background-color: rgb(27, 23, 23);
     height: 100px;
 }
@@ -66,4 +72,54 @@ li:hover {
     word-spacing: 3px;
     color: white;
     text-align: center;
+}
+@media (max-width: 320px) {
+    nav {
+        width: 350px;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin: auto;        
+    }
+    .lefts {
+        display: none;
+    }
+    .right {
+        padding-right: 0%;
+        justify-content: space-evenly;
+    }
+    ul {
+        font-size: small;
+        word-spacing: 20px;
+    }    
+    .logo {
+    display: none;
+    }
+    .cover {
+        width: 350px;
+        flex-direction: column-reverse;
+        padding-bottom: 35px;
+    }
+    .left {
+        padding: 0%;
+        margin: auto;
+        width: 350px;
+    }
+    .name {
+        text-align: center;
+        font-size: x-large;
+    }
+    .small {
+        font-size: small;
+        text-align: center;
+    }
+    .ORDER {
+        width: 350px;
+    }
+    .Footer {
+        width: 350px;
+        height: 120px;
+    }
+    .copyright {
+        font-size: small;
+    }
 }
