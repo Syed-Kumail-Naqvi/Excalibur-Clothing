@@ -103,7 +103,7 @@ li:hover {
     color: white;
     text-align: center;
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     nav {
         width: 350px;
         padding-right: 0%;
