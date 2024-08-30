@@ -73,9 +73,9 @@ li:hover {
     color: white;
     text-align: center;
 }
-@media (max-width: 400px) {
+@media (max-width: 1000px) and (min-width:0) {
     nav {
-        width: 350px;
+        width: 400px;
         padding-right: 0%;
         padding-left: 0%;
         margin: auto;        
@@ -85,24 +85,30 @@ li:hover {
     }
     .right {
         padding-right: 0%;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     ul {
         font-size: small;
         word-spacing: 20px;
+    }
+    .profile {
+        width: 450px;
+        justify-content: center;
     }    
     .logo {
     display: none;
     }
     .cover {
-        width: 350px;
+        width: 450px;
         flex-direction: column-reverse;
+        justify-content: center;
         padding-bottom: 35px;
     }
     .left {
+        justify-content: center;
         padding: 0%;
         margin: auto;
-        width: 350px;
+        width: 450px;
     }
     .name {
         text-align: center;
@@ -113,10 +119,11 @@ li:hover {
         text-align: center;
     }
     .ORDER {
-        width: 350px;
+        justify-content: center;
+        width: 450px;
     }
     .Footer {
-        width: 350px;
+        width: 450px;
         height: 120px;
     }
     .copyright {
