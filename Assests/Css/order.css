@@ -71,16 +71,16 @@ span {
 }
 @media (max-width: 1000px) and (min-width:0) {
     nav {
-        width: 350px;
-        padding: 0%;
-        margin: auto;        
+        justify-content: center;
+        width: auto;        
     }
-    .left {
+    .lefts {
         display: none;
     }
     .right {
         padding: 0%;
         margin: auto;
+        justify-content: center;
     }
 
     ul {
@@ -100,7 +100,9 @@ span {
         font-size: medium;
     }
     .Footer {
+        width: auto;
         height: 150px;
+        padding: 0%;
     }
     .Social {
         font-size: medium;

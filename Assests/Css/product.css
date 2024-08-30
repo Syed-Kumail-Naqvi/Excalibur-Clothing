@@ -164,10 +164,10 @@ button {
 }
 @media (max-width: 1000px) and (min-width:0) {
     nav {
-        width: 350px;
+        justify-content: center;
+        width: auto;
         padding-right: 0%;
-        padding-left: 0%;
-        margin: auto;        
+        padding-left: 0%;        
     }
     .left {
         display: none;
@@ -177,7 +177,8 @@ button {
         justify-content: space-evenly;
     }
     ul {
-        width: 350px;
+        margin-left: 50px;
+        width: auto;
         padding: 0%;
         font-size: small;
         word-spacing: 30px;
@@ -186,63 +187,63 @@ button {
     display: none;
     }
     .items {
-        width: 350px;
+        width: auto;
         margin: auto;
     }
     .row{
         justify-content: center;
-        width: 350px;
+        width: auto;
         flex-direction: column;
         gap: 20px;
     }
     .row2{
-        width: 350px;
+        width: auto;
         flex-direction: column;
         gap: 20px;
     }
     .row3 {
-        width: 350px;
+        width: auto;
         flex-direction: column;
         gap: 20px;
     }
     .item1 {
         padding: 0%;
         margin: 0%;
-        width: 320px;
+        width: auto;
     }
     .item2 {
         padding: 0%;
         margin: 0%;
-        width: 320px;
+        width: auto;
     }
     .item3 {
         padding: 0%;
         margin: 0%;
-        width: 320px;
+        width: auto;
     }
     .item4 {
         padding: 0%;
         margin: 0%;
-        width: 320px;
+        width: auto;
     }
     .item5 {
         padding: 0%;
         margin: 0%;
-        width: 320px;
+        width: auto;
     }
     .item6 {
         padding: 0%;
         margin: 0%;
-        width: 320px;
+        width: auto;
     }
     .Assests {
-        width: 250px;
+        width: 400px;
     }
     .last {
-        width: 250px;
+        width: 400px;
     }
     .Footer {
-        width: 320px;
+        width: auto;
     }
     .Social {
         font-size: medium;
