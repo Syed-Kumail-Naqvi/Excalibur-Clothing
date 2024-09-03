@@ -36,14 +36,9 @@ li:hover {
     color: white;
 }
 .para {
+    margin: auto;
     color: white;
     font-size: x-large;
-}
-.middle {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 .img {
     margin: auto;
@@ -52,36 +47,60 @@ li:hover {
     padding-right: 10px;
 }
 .info {
-    height: 390px;
+    margin: auto;
+    width: 30%;
+    padding: 50px;
+    height: 100px;
     background-color:  rgb(27, 23, 23);
     color: white;
-    padding-top: 20px;
-    font-size: x-large;
-    padding-left: 40px;
+    font-size: 20px;
+    border-radius: 12%;
 }
 .end {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.end1 {
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 60px;
-    gap: 90px;
-    padding-bottom: 20px;
 }
 .lefty {
-    background-color: bisque;
-    width: 30%;
-}
-.lefty1 {
-    font-size: 20px;
+    padding: 30px;
+    color: white;
+    background-color: rgb(27, 23, 23);
+    width: 300px;
+    border-radius: 12%;
 }
 .lefty3 {
-    background-color: blue;
+    padding: 30px;
+    background-color: rgb(27, 23, 23);
+    width: 300px;
+    color: white;
+    border-radius: 12%;
+}
+.end2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+}
+.lefty4 {
+    padding: 30px;
+    border-radius: 12%;
+    background-color: rgb(27, 23, 23);
     width: 300px;
     color: white;
 }
-.lefty4 {
-    background-color: cadetblue;
+.lefty5 {
+    padding: 30px;
+    color: white;
+    background-color: rgb(27, 23, 23);
     width: 300px;
-    color: beige;
+    border-radius: 12%;
 }
 .Footer {
     width: 100%;
@@ -92,7 +111,7 @@ li:hover {
     padding-top: 20px;
     text-align: center;
     word-spacing: 50px;
-    font-size: x-large;
+    font-size: medium;
 }
 .fb:hover {
     color: blue;
@@ -102,6 +121,7 @@ li:hover {
     word-spacing: 3px;
     color: white;
     text-align: center;
+    font-size: medium;
 }
 @media (max-width: 1000px) and (min-width:0) {
     nav {
@@ -133,37 +153,27 @@ li:hover {
         padding: 0%;
         width: 400px;
     }
-    .profile {
-        padding: 0%;
-        margin: auto;
-    }
-    .info {
-        width: auto;
-        height: 500px;
-        padding: 0%;
-        margin: 0%;
-        text-align: center;
-    }
     .end {
-        margin-top: 20px;
         padding: 0%;
-        gap: 10px;
         margin-bottom: 30px;
     }
+    .end1 {
+        gap: 30px;
+    }
+    .end2 {
+        gap: 30px;
+    }
     .lefty {
-        width: auto;
-        padding: 0%;
-        margin: auto;
+        padding: 30px;
     }
     .lefty3 {
-        width: auto;
-        padding: 0%;
-        margin: auto;
+        padding: 30px;
     }
     .lefty4 {
-        width: auto;
-        padding: 0%;
-        margin: auto;
+        padding: 30px;
+    }
+    .lefty5 {
+        padding: 30px;
     }
     .Footer {
         width: auto;

@@ -65,7 +65,7 @@ li:hover {
     padding-top: 20px;
     text-align: center;
     word-spacing: 50px;
-    font-size: x-large;
+    font-size: medium;
 }
 .fb:hover {
     color: blue;
@@ -75,6 +75,7 @@ li:hover {
     word-spacing: 3px;
     color: white;
     text-align: center;
+    font-size: medium;
 }
 @media (max-width: 1000px) and (min-width:0) {
     nav {
@@ -88,6 +89,7 @@ li:hover {
         display: none;
     }
     .right {
+        margin: auto;
         padding-right: 0%;
         justify-content: center;
     }
